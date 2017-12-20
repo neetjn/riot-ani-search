@@ -1,0 +1,25 @@
+{
+  "name": "riot-ani-search",
+  "version": "1.0.0",
+  "description": "Lightweight riot.js tag for searching for anime using anichart's api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neetjn/riot-ani-search.git"
+  },
+  "keywords": [
+    "riot",
+    "riotjs",
+    "tag",
+    "component"
+  ],
+  "author": "John Nolette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neetjn/riot-ani-search/issues"
+  },
+  "homepage": "https://github.com/neetjn/riot-ani-search#readme"
+}
