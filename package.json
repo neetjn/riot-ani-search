@@ -22,7 +22,21 @@
     "url": "https://github.com/neetjn/riot-ani-search/issues"
   },
   "homepage": "https://github.com/neetjn/riot-ani-search#readme",
-  "dependencies": {
-    "riot": "^3.7.4"
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "riot": "^3.7.4",
+    "cross-env": "5.0.1",
+    "css-loader": "0.28.0",
+    "eslint": "4.1.1",
+    "eslint-loader": "1.6.1",
+    "eslint-plugin-riot": "0.1.7",
+    "file-loader": "0.11.2",
+    "raw-loader": "0.5.1",
+    "riot-tag-loader": "1.0.0",
+    "style-loader": "0.18.0",
+    "webpack": "^3.8.1"
   }
 }
