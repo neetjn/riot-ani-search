@@ -4,7 +4,7 @@
   "description": "Lightweight riot.js tag for searching for anime using anilist's api.",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/webpack --config build/webpack.conf.js",
+    "build": "node_modules/.bin/riot src/riot-ani-search.tag dist/riot-ani-search.js --compact",
     "lint": "node_modules/.bin/eslint src/**.js",
     "test": "npm run lint"
   },
@@ -27,14 +27,11 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.6.1",
-    "riot": "^3.7.4",
-    "cross-env": "5.0.1",
     "eslint": "4.1.1",
     "eslint-loader": "1.6.1",
-    "eslint-plugin-riot": "0.1.7",
-    "riot-tag-loader": "1.0.0",
-    "webpack": "^3.8.1"
+    "eslint-plugin-riot": "^0.1.7",
+    "riot": "^3.7.4"
   }
 }

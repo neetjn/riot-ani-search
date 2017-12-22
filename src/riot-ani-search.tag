@@ -55,6 +55,7 @@
     }
     .ani-search button {
       padding: 1rem;
+      margin: 0 0.5rem 0 0;
       color: #dddddd;
       font-weight: bold;
       border: none;
