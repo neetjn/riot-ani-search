@@ -288,7 +288,7 @@
 
   self.on('mount', () => {
     self.fetchGenres().then(genres => {
-      self.searchGenres = self.opts.mature == undefined ? genres : !genres.filter(item => self.matureGenres.includes(item.genre))
+      self.searchGenres = self.opts.mature == undefined ? genres.filter(item => !self.matureGenres.includes(item.genre)) : genres
       self.update()
     })
   })
