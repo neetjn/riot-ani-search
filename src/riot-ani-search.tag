@@ -194,7 +194,7 @@
               <b>Title</b>: <small>{ anime.title_english }</small>
             </li>
             <li>
-              <b>Score</b>: <small>{ anime.average_score }</small>
+              <b>Score</b>: <small>{ anime.average_score }&#37;</small>
             </li>
             <li>
               <b>Genres</b>: <small>{ anime.genres.join(' ') }</small>
