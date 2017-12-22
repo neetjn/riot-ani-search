@@ -10,6 +10,10 @@ Lightweight riot.js tag for searching for anime using anichart's api.
 
 **riot-anti-search** is a simple riot tag used for quickly searching for anime using the anilist api.
 
+### Examples
+
+* https://riot-ani-search.firebaseapp.com/
+
 ## Usage
 
 To install via NPM:
