@@ -4,6 +4,7 @@
     :scope {
       display: block;
       font-family: "Arial Black", Gadget, sans-serif;
+      min-width: 460px;
     }
 
     @keyframes fadeInLoad {
@@ -56,7 +57,7 @@
     }
     .ani-search button {
       padding: 1rem;
-      margin: 0 0.5rem 0 0;
+      margin: 0 0.5rem 0.5rem 0;
       color: #dddddd;
       font-weight: bold;
       border: none;
