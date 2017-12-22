@@ -5,14 +5,12 @@ function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
 
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
-
 module.exports = {
   entry: './src/main.js',
   output: {
     path: resolve('./dist'),
     publicPath: 'dist/',
-    filename: 'dist.js',
+    filename: 'riot-ani-search.js',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
@@ -36,20 +34,10 @@ module.exports = {
         query: {
           hot: false
         }
-      },
-      {
-        test: /\.css$/,
-        loader: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader'
-        })
-      },
-      { test: /\.(png|jpe|jpg|woff|woff2|eot|ttf|svg)(\?.*$|$)/, loader: 'url-loader' },
-      { test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'file-loader' }
+      }
     ]
   },
   plugins: [
-    new ExtractTextPlugin('dist.css'),
     new webpack.ProvidePlugin({
       'riot': 'riot'
     })

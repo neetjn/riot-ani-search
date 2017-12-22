@@ -1,1 +1,1 @@
-import 'riot-ani-search.tag'
+import './riot-ani-search.tag'
