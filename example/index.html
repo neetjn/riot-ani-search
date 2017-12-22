@@ -1,0 +1,44 @@
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>riot-ani-search</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="riot anime search with anilist">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Riot">
+    <meta name="author" content="John Nolette">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.7.4/riot.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/riot-ani-search/dist/riot-ani-search.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.5.2/superhero/bulmaswatch.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css">
+    <style>
+      .ani-search {
+        background-color: #aaaaaa;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            riot-ani-search
+          </h1>
+          <h2 class="subtitle">
+            <a href="http://github.com/neetjn/riot-ani-search">
+              View on <i class="fi-social-github"></i> github
+            </a>
+          </h2>
+          <riot-ani-search
+            client-id="veritas-vc4r0"
+            client-secret="Nutj1G8FJibl0SUXCUP72NL" />
+        </div>
+      </div>
+    </section>
+    <script>
+      riot.mount('*')
+    </script>
+  </body>
+</html>
