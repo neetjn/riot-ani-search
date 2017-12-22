@@ -1,0 +1,16 @@
+dist: trusty
+language: node_js
+node_js:
+  - '8'
+install:
+  - npm install
+script:
+  - npm run build
+  - npm run test
+deploy:
+  provider: npm
+  email: john@neetgroup.net
+  api_key:
+    secure: TLmFSZxE0ymXLgs57wzMTBBjjODbt/xcVNq1Fh8fghp3i7MH8mJ9b+I6ir1n1m08YMMxut87COz0HI7e9pa28fBM+k0wAxSE48B7Z1Bi01AJpEO8uQxSiy5N6rZE7fYecOKgsbaVAhk8xMQI7G0JE5eWE/IIYVDHyV7BfenxnQeubhHsW9uMb0uOiVh/K5x+2tLpmkwoz4Od1GEOwV0J58mtsNlOQGFFOmpT/Q6NpFbFyIBlFNVP2PVN6P0R0DcK6sworCKoED9kjsR85Rm+nMG0eOQStjBtpHSDsK+A2MRiFMhJuIlvuKcKrt2iRPcBMyQhfbEMnxLzUt2qYqxruUUm1fIH8SMBwqnPJKlA7hudl+N1Ayo8InyDm8FY0CnQ4pG0QsgwREFG9bcXO1RmM6rDNwpxdrV3PPeupdnSkz0stJrB15S6lmWmPSQ9daE7XsK5Cq3/BnJa12ZCNWvLCBJ8uWQMKj1qPYQT0+H+7we4HKPjTwGszZ4AhxfJpnpOmPpU6v3/952pTJ+XMefZIIZoWtvK+vEeixQFpovpU/qXek/Qf8RKZSqPJCKcopDPqIZbcuUdO+SDVrGUsmpVXcwelGNW9StW8mUIyC8i2x6hgUEa/8Vb+H/IPIDTuuzyBib+Y+y6iazDQoFbYa6ZNHLjJXDdCZoOLL+zSQILWG0=
+  on:
+    branch: master
