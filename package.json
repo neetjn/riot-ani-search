@@ -1,8 +1,8 @@
 {
   "name": "riot-ani-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight riot.js tag for searching for anime using anilist's api.",
-  "main": "index.js",
+  "main": "dist/riot-ani-search.js",
   "scripts": {
     "build": "node_modules/.bin/riot src/riot-ani-search.tag dist/riot-ani-search.js --compact",
     "lint": "node_modules/.bin/eslint src/**.js",
