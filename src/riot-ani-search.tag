@@ -33,9 +33,9 @@
     .ani-search {
       display: block;
       width: 100%;
-      color: #181F29;
-      background-color: #dddddd;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      color: #fff;
+      background-color: #1a1829;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     .ani-search a.anilist {
       text-decoration: none;
@@ -97,8 +97,8 @@
       align-items: space-around;
       padding: 1rem;
       color: #fff;
-      background-color: #181F29;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      background-color: #2f353e;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
     .ani-results:after {
       content: "";
