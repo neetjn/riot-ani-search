@@ -137,6 +137,7 @@
       width: 50%;
       margin: auto;
       animation: fadeInLoad 1.5s;
+      background-color: inherit;
     }
     .empty-results h5.error-text {
       color: red;
