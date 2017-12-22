@@ -1,5 +1,6 @@
 # riot-ani-search
 
+[![build](https://travis-ci.org/neetjn/riot-ani-search.svg?branch=master)](https://travis-ci.org/neetjn/riot-view-router/)
 [![NPM](https://nodei.co/npm/riot-ani-search.png)](https://nodei.co/npm/riot-ani-search/)
 
 Lightweight riot.js tag for searching for anime using anichart's api.
