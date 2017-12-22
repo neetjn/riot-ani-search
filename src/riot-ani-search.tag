@@ -166,7 +166,7 @@
         </div>
         <div class="ani-form-group">
           <button id="searchAnime" type="submit">Search Anime</button>
-          <button id="clearResults" onclick={ clearResults }>Clear Results</button>
+          <button id="clearResults" type="button" @onclick={ clearResults }>Clear Results</button>
         </div>
       </form>
     </div>
@@ -287,7 +287,8 @@
   }
 
   clearResults(e) {
-    this.searchResults = []
+    self.searchResults = []
+    self.update()
   }
 
   self.on('mount', () => {
