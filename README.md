@@ -15,6 +15,7 @@ This tag doesn't depend on any css frameworks, all styles were made with vanilla
 ### Examples
 
 * https://riot-ani-search.firebaseapp.com/
+* https://jsfiddle.net/neetjn/mh4mcvk3/
 
 ## Usage
 
