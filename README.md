@@ -22,7 +22,7 @@ This tag doesn't depend on any css frameworks, all styles were made with vanilla
 To install via NPM:
 
 ```bash
-npm install riot-view-router
+npm install riot-ani-search
 ```
 
 For a quick start using jsdelivr:
